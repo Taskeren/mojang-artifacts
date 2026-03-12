@@ -14,10 +14,11 @@ async def main():
     async with httpx.AsyncClient() as client:
         # see https://minecraft.fandom.com/wiki/Version_manifest.json
         mc_manifest = (await client.get(MINECRAFT_MANIFEST_URL)).json()
+        latest_snapshot = mc_manifest["latest"]["snapshot"]
 
         async def handle_version(version):
             # ignore snapshot versions to make the script run faster
-            if version["type"] != "release": return
+            if version["type"] != "release" and version["id"] != latest_snapshot: return
             print(f"Version discovered: {version['id']} ({version['type']})")
             # see https://minecraft.fandom.com/wiki/Client.json
             ver_manifest = (await client.get(version["url"])).json()
