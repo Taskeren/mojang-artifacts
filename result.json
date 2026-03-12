@@ -3,6 +3,7 @@
         "2.25_fixed"
     ],
     "at.yawk.lz4:lz4-java": [
+        "1.10.1",
         "1.8.1"
     ],
     "ca.weblite:java-objc-bridge": [
@@ -108,7 +109,8 @@
         "6.0.55",
         "6.0.57",
         "6.0.58",
-        "7.0.61"
+        "7.0.61",
+        "7.0.62"
     ],
     "com.mojang:blocklist": [
         "1.0.10",
@@ -554,28 +556,38 @@
         "3.2.2",
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-freetype": [
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-freetype@natives-linux": [
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
+    ],
+    "org.lwjgl:lwjgl-freetype@natives-macos": [
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-freetype@natives-macos-arm64": [
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-freetype@natives-macos-patch": [
         "3.3.3"
     ],
     "org.lwjgl:lwjgl-freetype@natives-windows": [
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-freetype@natives-windows-arm64": [
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-freetype@natives-windows-x86": [
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-glfw": [
         "3.1.6",
@@ -583,37 +595,44 @@
         "3.2.2",
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-glfw@natives-linux": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-glfw@natives-macos": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-glfw@natives-macos-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-glfw@natives-windows": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-glfw@natives-windows-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-glfw@natives-windows-x86": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-jemalloc": [
         "3.1.6",
@@ -621,37 +640,44 @@
         "3.2.2",
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-jemalloc@natives-linux": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-jemalloc@natives-macos": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-jemalloc@natives-macos-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-jemalloc@natives-windows": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-jemalloc@natives-windows-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-jemalloc@natives-windows-x86": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-openal": [
         "3.1.6",
@@ -659,37 +685,44 @@
         "3.2.2",
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-openal@natives-linux": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-openal@natives-macos": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-openal@natives-macos-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-openal@natives-windows": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-openal@natives-windows-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-openal@natives-windows-x86": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-opengl": [
         "3.1.6",
@@ -697,37 +730,44 @@
         "3.2.2",
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-opengl@natives-linux": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-opengl@natives-macos": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-opengl@natives-macos-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-opengl@natives-windows": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-opengl@natives-windows-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-opengl@natives-windows-x86": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-stb": [
         "3.1.6",
@@ -735,104 +775,124 @@
         "3.2.2",
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-stb@natives-linux": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-stb@natives-macos": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-stb@natives-macos-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-stb@natives-windows": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-stb@natives-windows-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-stb@natives-windows-x86": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-tinyfd": [
         "3.2.1",
         "3.2.2",
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-tinyfd@natives-linux": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-tinyfd@natives-macos": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-tinyfd@natives-macos-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-tinyfd@natives-windows": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-tinyfd@natives-windows-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl-tinyfd@natives-windows-x86": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl@natives-linux": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl@natives-macos": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl@natives-macos-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl@natives-windows": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl@natives-windows-arm64": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lwjgl:lwjgl@natives-windows-x86": [
         "3.3.1",
         "3.3.2",
-        "3.3.3"
+        "3.3.3",
+        "3.4.1"
     ],
     "org.lz4:lz4-java": [
         "1.8.0"
