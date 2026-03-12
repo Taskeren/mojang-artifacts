@@ -1,3 +1,4 @@
+import asyncio
 import json
 from collections import defaultdict
 
@@ -38,7 +39,8 @@ async def main():
     # this function casts the objects to what it can handle.
     def json_handler(obj):
         if isinstance(obj, set):
-            return list(obj)
+            # sorted, so that the order won't change
+            return sorted(list(obj))
         if isinstance(obj, defaultdict):
             return dict(obj)
         raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
@@ -49,6 +51,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    import asyncio
-
     asyncio.run(main())
