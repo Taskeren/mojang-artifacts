@@ -1,0 +1,30 @@
+name: Regenerate
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+concurrency:
+  group: "regenerate"
+  cancel-in-progress: true
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Setup UV
+        uses: astral-sh/setup-uv@v7
+      - name: Install Python
+        run: uv python install
+      - name: UV Sync
+        run: uv sync --locked --all-extras --dev
+      - name: Run the script
+        run: uv run main.py
+      - name: Open Pull Requests
+        uses: peter-evans/create-pull-request@v8
+        with:
+          commit-message: 'Regenerate by the workflow'
+          title: 'Regenerate by the workflow ${{ github.ref }}'
+          branch: 'regenerate'
+          token: ${{ secrets.GITHUB_TOKEN }}
