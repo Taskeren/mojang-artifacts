@@ -35,14 +35,15 @@ async def main():
         tasks = [handle_version(version) for version in mc_manifest["versions"]]
         await asyncio.gather(*tasks)
 
+    # sort the dict for consistency
+    result = dict(sorted(result.items()))
+
     # the dumbass JSON library just can't handle everything.
     # this function casts the objects to what it can handle.
     def json_handler(obj):
         if isinstance(obj, set):
             # sorted, so that the order won't change
             return sorted(list(obj))
-        if isinstance(obj, defaultdict):
-            return dict(obj)
         raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
 
     result_json = json.dumps(result, indent=4, default=json_handler)
