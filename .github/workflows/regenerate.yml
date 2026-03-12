@@ -25,6 +25,8 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           commit-message: 'Regenerate by the workflow'
-          title: 'Regenerate by the workflow ${{ github.ref }}'
+          title: 'Regenerate by the workflow'
           branch: 'regenerate'
           token: ${{ secrets.GITHUB_TOKEN }}
+          delete-branch: true
+          reviewers: "Taskeren"
