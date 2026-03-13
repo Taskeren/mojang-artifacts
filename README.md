@@ -14,3 +14,9 @@ repositories {
     }
 }
 ```
+
+## Mojang Artifacts Workers
+
+[Discover](https://mojang-artifacts.nitu2003.workers.dev/)
+
+Use the workers to override the `maven-metadata.xml`.
