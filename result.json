@@ -115,7 +115,7 @@
         "6.0.58",
         "7.0.61",
         "7.0.63",
-        "7.0.72"
+        "8.0.73"
     ],
     "com.mojang:blocklist": [
         "1.0.10",
@@ -285,27 +285,6 @@
         "1.1.3",
         "1.2",
         "1.3.4"
-    ],
-    "dev.onvoid.webrtc:webrtc-java": [
-        "0.14.0"
-    ],
-    "dev.onvoid.webrtc:webrtc-java@linux-aarch32": [
-        "0.14.0"
-    ],
-    "dev.onvoid.webrtc:webrtc-java@linux-aarch64": [
-        "0.14.0"
-    ],
-    "dev.onvoid.webrtc:webrtc-java@linux-x86_64": [
-        "0.14.0"
-    ],
-    "dev.onvoid.webrtc:webrtc-java@macos-aarch64": [
-        "0.14.0"
-    ],
-    "dev.onvoid.webrtc:webrtc-java@macos-x86_64": [
-        "0.14.0"
-    ],
-    "dev.onvoid.webrtc:webrtc-java@windows-x86_64": [
-        "0.14.0"
     ],
     "io.netty:netty-all": [
         "4.0.10.Final",
@@ -1013,6 +992,9 @@
         "3.3.1",
         "3.3.2",
         "3.3.3",
+        "3.4.1"
+    ],
+    "org.lwjgl:lwjgl@unsafe": [
         "3.4.1"
     ],
     "org.lz4:lz4-java": [
