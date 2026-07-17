@@ -798,6 +798,27 @@
         "3.3.3",
         "3.4.1"
     ],
+    "org.lwjgl:lwjgl-sdl": [
+        "3.4.1"
+    ],
+    "org.lwjgl:lwjgl-sdl@natives-linux": [
+        "3.4.1"
+    ],
+    "org.lwjgl:lwjgl-sdl@natives-macos": [
+        "3.4.1"
+    ],
+    "org.lwjgl:lwjgl-sdl@natives-macos-arm64": [
+        "3.4.1"
+    ],
+    "org.lwjgl:lwjgl-sdl@natives-windows": [
+        "3.4.1"
+    ],
+    "org.lwjgl:lwjgl-sdl@natives-windows-arm64": [
+        "3.4.1"
+    ],
+    "org.lwjgl:lwjgl-sdl@natives-windows-x86": [
+        "3.4.1"
+    ],
     "org.lwjgl:lwjgl-shaderc": [
         "3.4.1"
     ],
