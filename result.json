@@ -303,6 +303,7 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-codec": [
@@ -314,15 +315,18 @@
     ],
     "io.netty:netty-codec-base": [
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-codec-compression": [
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-codec-http": [
         "4.1.118.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-common": [
@@ -332,6 +336,7 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-handler": [
@@ -341,6 +346,7 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-resolver": [
@@ -350,6 +356,7 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport": [
@@ -359,6 +366,7 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-classes-epoll": [
@@ -368,10 +376,12 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-classes-kqueue": [
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-epoll@linux-aarch_64": [
@@ -381,6 +391,7 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-epoll@linux-x86_64": [
@@ -390,14 +401,17 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-kqueue@osx-aarch_64": [
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-kqueue@osx-x86_64": [
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-unix-common": [
@@ -407,6 +421,7 @@
         "4.1.82.Final",
         "4.1.97.Final",
         "4.2.15.Final",
+        "4.2.16.Final",
         "4.2.7.Final"
     ],
     "it.unimi.dsi:fastutil": [
