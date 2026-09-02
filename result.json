@@ -898,6 +898,27 @@
         "3.4.1",
         "3.4.3"
     ],
+    "org.lwjgl:lwjgl-spng": [
+        "3.4.3"
+    ],
+    "org.lwjgl:lwjgl-spng@natives-linux": [
+        "3.4.3"
+    ],
+    "org.lwjgl:lwjgl-spng@natives-macos": [
+        "3.4.3"
+    ],
+    "org.lwjgl:lwjgl-spng@natives-macos-arm64": [
+        "3.4.3"
+    ],
+    "org.lwjgl:lwjgl-spng@natives-windows": [
+        "3.4.3"
+    ],
+    "org.lwjgl:lwjgl-spng@natives-windows-arm64": [
+        "3.4.3"
+    ],
+    "org.lwjgl:lwjgl-spng@natives-windows-x86": [
+        "3.4.3"
+    ],
     "org.lwjgl:lwjgl-spvc": [
         "3.4.1",
         "3.4.3"
