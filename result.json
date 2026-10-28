@@ -4,6 +4,7 @@
     ],
     "at.yawk.lz4:lz4-java": [
         "1.10.1",
+        "1.12.1",
         "1.8.1"
     ],
     "ca.weblite:java-objc-bridge": [
@@ -22,6 +23,9 @@
     "com.fasterxml.jackson.core:jackson-databind": [
         "2.13.4.2"
     ],
+    "com.github.oshi:oshi-common": [
+        "7.7.2"
+    ],
     "com.github.oshi:oshi-core": [
         "5.7.4",
         "5.7.5",
@@ -32,6 +36,9 @@
         "6.4.5",
         "6.6.5",
         "6.9.0"
+    ],
+    "com.github.oshi:oshi-core-ffm": [
+        "7.7.2"
     ],
     "com.github.stephenc.jcip:jcip-annotations": [
         "1.0-1"
@@ -311,6 +318,7 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-codec": [
@@ -323,17 +331,20 @@
     "io.netty:netty-codec-base": [
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-codec-compression": [
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-codec-http": [
         "4.1.118.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-common": [
@@ -344,6 +355,7 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-handler": [
@@ -354,6 +366,7 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-resolver": [
@@ -364,6 +377,7 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport": [
@@ -374,6 +388,7 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-classes-epoll": [
@@ -384,11 +399,13 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-classes-kqueue": [
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-epoll@linux-aarch_64": [
@@ -399,6 +416,7 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-epoll@linux-x86_64": [
@@ -409,16 +427,19 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-kqueue@osx-aarch_64": [
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-kqueue@osx-x86_64": [
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "io.netty:netty-transport-native-unix-common": [
@@ -429,6 +450,7 @@
         "4.1.97.Final",
         "4.2.15.Final",
         "4.2.16.Final",
+        "4.2.19.Final",
         "4.2.7.Final"
     ],
     "it.unimi.dsi:fastutil": [
@@ -454,6 +476,7 @@
         "5.14.0",
         "5.15.0",
         "5.17.0",
+        "5.19.1",
         "5.8.0",
         "5.9.0"
     ],
@@ -464,6 +487,7 @@
         "5.14.0",
         "5.15.0",
         "5.17.0",
+        "5.19.1",
         "5.8.0",
         "5.9.0"
     ],
@@ -1112,6 +1136,7 @@
         "2.0.1",
         "2.0.16",
         "2.0.17",
+        "2.0.20",
         "2.0.7",
         "2.0.9"
     ],
