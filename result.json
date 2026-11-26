@@ -646,21 +646,21 @@
     ],
     "org.lwjgl:lwjgl-freetype": [
         "3.3.3",
-        "3.4.1",
+        "3.4.1-mojang-2.15.0.3",
         "3.4.3-mojang-2.15.0"
     ],
     "org.lwjgl:lwjgl-freetype@natives-linux": [
         "3.3.3",
-        "3.4.1",
+        "3.4.1-mojang-2.15.0.3",
         "3.4.3-mojang-2.15.0"
     ],
     "org.lwjgl:lwjgl-freetype@natives-macos": [
-        "3.4.1",
+        "3.4.1-mojang-2.15.0.3",
         "3.4.3-mojang-2.15.0"
     ],
     "org.lwjgl:lwjgl-freetype@natives-macos-arm64": [
         "3.3.3",
-        "3.4.1",
+        "3.4.1-mojang-2.15.0.3",
         "3.4.3-mojang-2.15.0"
     ],
     "org.lwjgl:lwjgl-freetype@natives-macos-patch": [
@@ -668,17 +668,17 @@
     ],
     "org.lwjgl:lwjgl-freetype@natives-windows": [
         "3.3.3",
-        "3.4.1",
+        "3.4.1-mojang-2.15.0.3",
         "3.4.3-mojang-2.15.0"
     ],
     "org.lwjgl:lwjgl-freetype@natives-windows-arm64": [
         "3.3.3",
-        "3.4.1",
+        "3.4.1-mojang-2.15.0.3",
         "3.4.3-mojang-2.15.0"
     ],
     "org.lwjgl:lwjgl-freetype@natives-windows-x86": [
         "3.3.3",
-        "3.4.1"
+        "3.4.1-mojang-2.15.0.3"
     ],
     "org.lwjgl:lwjgl-glfw": [
         "3.1.6",
